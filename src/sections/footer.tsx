@@ -45,12 +45,12 @@ const Footer = () => {
                             </Link>
 
                             <Link
-                                href="mailto:hey@bhytesoftware.com"
+                                href="mailto:contact@reframelabs.co"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="transition-opacity duration-200"
                             >
-                                <p className=" text-[15px] md:text-[15px] font-medium text-foreground opacity-70 hover:text-primary hover:opacity-100">hey@bhytesoftware.com</p>
+                                <p className=" text-[15px] md:text-[15px] font-medium text-foreground opacity-70 hover:text-primary hover:opacity-100">contact@reframelabs.co</p>
                             </Link>
 
                             <TeamTooltip />
