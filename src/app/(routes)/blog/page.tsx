@@ -8,8 +8,8 @@ import Image from "next/image";
 
 export const revalidate = 60;
 
-const baseUrl = "https://reframelabs.vercel.app/";
-const wwwBaseUrl = "https://www.reframelabs.vercel.app/";
+const baseUrl = "https://reframelabs.co/";
+const wwwBaseUrl = "https://www.reframelabs.co/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(`${wwwBaseUrl}`) || new URL(`${baseUrl}`),

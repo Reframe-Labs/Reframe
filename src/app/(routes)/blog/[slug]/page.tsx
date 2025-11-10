@@ -18,7 +18,7 @@ export async function generateMetadata(props: {
     const { slug } = await props.params;
     const response: Post = await getPost(slug);
     const imageUrl = urlFor(response?.mainImage?.asset?._ref).url();
-    const baseUrl = "https://reframelabs.vercel.app/";
+    const baseUrl = "https://reframelabs.co/";
     const fullUrl = `${baseUrl}/blog/${slug}`;
 
     if (!response) {

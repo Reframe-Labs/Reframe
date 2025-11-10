@@ -1,7 +1,7 @@
 import AllWork from "@/sections/all-work";
 import { Metadata } from "next";
 
-const wwwBaseUrl = "https://reframelabs.vercel.app/";
+const wwwBaseUrl = "https://reframelabs.co/";
 
 export const metadata: Metadata = {
     metadataBase: new URL(wwwBaseUrl),

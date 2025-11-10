@@ -8,7 +8,7 @@ import RelatedCaseStudies from "@/sections/related-case-studies";
 import SingleReview from "@/sections/single-review";
 import { Metadata } from "next";
 
-const wwwBaseUrl = "https://reframelabs.vercel.app/";
+const wwwBaseUrl = "https://reframelabs.co/";
 
 export const metadata: Metadata = {
     metadataBase: new URL(wwwBaseUrl),

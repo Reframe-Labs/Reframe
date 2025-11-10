@@ -5,7 +5,7 @@ import Faqs from "@/sections/faqs";
 import SupportHero from "@/sections/support-hero";
 import SupportServices from "@/sections/support-services";
 
-const wwwBaseUrl = "https://reframelabs.vercel.app/";
+const wwwBaseUrl = "https://reframelabs.co/";
 
 export const metadata: Metadata = {
     metadataBase: new URL(wwwBaseUrl),

@@ -9,7 +9,7 @@ import Testimonials from "@/sections/testimonials";
 import WebDevelopmentServices from "@/sections/web-dev-services";
 import WhyUsWebDevelopment from "@/sections/why-us-web-dev";
 
-const wwwBaseUrl = "https://reframelabs.vercel.app/";
+const wwwBaseUrl = "https://reframelabs.co/";
 
 export const metadata: Metadata = {
     metadataBase: new URL(wwwBaseUrl),

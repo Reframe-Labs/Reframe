@@ -3,7 +3,7 @@ import { Post } from "@/interface";
 import { services } from "@/constants";
 
 export default async function sitemap() {
-  const baseUrl = "https://reframelabs.vercel.app/";
+  const baseUrl = "https://reframelabs.co/";
 
   // Get all posts from CMS
   const posts: Post[] = await getPosts();

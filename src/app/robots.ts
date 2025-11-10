@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: ["/"],
       disallow: ["/studio"],
     },
-    sitemap: "https://www.reframelabs.vercel.app/sitemap.xml",
+    sitemap: "https://www.reframelabs.co/sitemap.xml",
   };
 }
