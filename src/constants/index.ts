@@ -1513,10 +1513,6 @@ export const otherProjectsLinks = [
     href: "https://www.astrae.design",
   },
   {
-    title: "Reframe Labs",
-    href: "https://www.reframelabs.co",
-  },
-  {
     title: "Stakenet",
     href: "https://stakenet.app",
   },
