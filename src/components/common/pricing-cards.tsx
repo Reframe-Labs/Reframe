@@ -2,12 +2,47 @@
 
 import { motion } from "framer-motion";
 import { BanknoteArrowDown, CirclePause, CirclePercent, HandCoins, HeartPlus, LaptopMinimalCheck, MessageCirclePlus, PackageMinus, PackagePlus, Pause, SplinePointer, SquareChartGantt, UserStar } from "lucide-react";
-import Link from "next/link";
+import { useState } from "react";
 import { BsStripe } from "react-icons/bs";
 import { CustomQuoteDialog } from "./custom-quote-dialog";
 import PrimaryButton from "./primary-button";
 
 const PricingCards = () => {
+    const [isLoading, setIsLoading] = useState(false);
+
+    const handleSubscribeClick = async (plan: string, amount: number) => {
+        setIsLoading(true);
+        try {
+            const response = await fetch('/api/subscriptions/create', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    plan,
+                    amount,
+                }),
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.error || 'Failed to create subscription');
+            }
+
+            const data = await response.json();
+
+            if (data.checkoutUrl) {
+                window.location.href = data.checkoutUrl;
+            } else {
+                throw new Error('No checkout URL returned');
+            }
+        } catch (error) {
+            console.error('Subscription error:', error);
+            alert(error instanceof Error ? error.message : 'Failed to initiate checkout');
+        } finally {
+            setIsLoading(false);
+        }
+    };
     return (
         <motion.div
             className=" w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4  mt-12 relative z-20"
@@ -56,9 +91,12 @@ const PricingCards = () => {
 
                     <h3 className=" font-medium text-lg md:text-xl tracking-tight mt-4">$1,999/month</h3>
                 </div>
-                <Link className=" w-full" href="/contact">
-                    <PrimaryButton fullWidth text="Subscribe Now" />
-                </Link>
+                <div
+                    onClick={() => handleSubscribeClick('On-Demand Product Team', 1999)}
+                    className="w-full"
+                >
+                    <PrimaryButton fullWidth text={isLoading ? "Processing..." : "Subscribe Now"} />
+                </div>
 
                 <div className=" p-4 bg-white border rounded-lg flex flex-col gap-2.5 items-start w-full">
                     <div className="flex items-center gap-2 text-foreground/70">
