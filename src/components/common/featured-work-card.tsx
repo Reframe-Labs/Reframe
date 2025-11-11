@@ -1,10 +1,8 @@
 'use client'
 import { motion, MotionValue, useTransform } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
-import { Button } from '../ui/button';
 import { Separator } from '../ui/separator';
 
 interface FeaturedWorkCardProps {
