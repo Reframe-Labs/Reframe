@@ -58,23 +58,23 @@ const Footer = () => {
 
                         <div className=" md:hidden flex items-center mt-4">
 
-                            <Link href="https://twitter.com/astrae_design" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://twitter.com/reframelabsco" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                     <FaXTwitter size={22} />
                                 </div>
                             </Link>
-                            <Link href="https://www.youtube.com/@ahruhte" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.youtube.com/@reframelabsco" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                     <FaYoutube size={24} />
                                 </div>
                             </Link>
 
-                            <Link href="https://x.com/astraedesign0" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://dribbble.com/reframelabsco" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                     <RiDribbbleLine size={24} />
                                 </div>
                             </Link>
-                            <Link href="https://www.threads.com/@astraedesign0" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.threads.com/@reframelabsco" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                     <SiThreads size={22} />
                                 </div>
@@ -82,12 +82,12 @@ const Footer = () => {
                             <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                 <RiBehanceLine size={26} />
                             </div>
-                            <Link href="https://www.instagram.com/@astraedesign0" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.instagram.com/@reframelabsco" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                     <FaInstagram size={24} />
                                 </div>
                             </Link>
-                            <Link href="https://www.instagram.com/@astraedesign0" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.instagram.com/@reframelabsco" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center">
                                     <RiGithubFill size={26} />
                                 </div>
@@ -183,23 +183,23 @@ const Footer = () => {
 
                         <div className=" md:hidden flex items-center mt-4 -ml-3">
 
-                            <Link href="https://twitter.com/bhyte_software" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://twitter.com/reframelabsco" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                     <FaXTwitter size={22} />
                                 </div>
                             </Link>
-                            <Link href="https://www.youtube.com/@bhyte_software" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.youtube.com/@reframelabsco" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                     <FaYoutube size={24} />
                                 </div>
                             </Link>
 
-                            <Link href="https://dribbble.com/bhyte_software" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://dribbble.com/reframelabsco" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                     <RiDribbbleLine size={24} />
                                 </div>
                             </Link>
-                            <Link href="https://www.threads.com/@bhyte_software" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.threads.com/@reframelabsco" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                     <SiThreads size={22} />
                                 </div>
@@ -207,12 +207,12 @@ const Footer = () => {
                             <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                 <RiBehanceLine size={26} />
                             </div>
-                            <Link href="https://www.instagram.com/bhyte_software/" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.instagram.com/reframelabsco/" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                     <FaInstagram size={24} />
                                 </div>
                             </Link>
-                            <Link href="https://github.com/Reframe Labs-Software" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://github.com/Reframe-Labs" target="_blank" rel="noopener noreferrer">
                                 <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center">
                                     <RiGithubFill size={26} />
                                 </div>
@@ -276,23 +276,23 @@ const Footer = () => {
                     <span className=" text-sm md:text-[15px]">© 2025 Reframe Labs. All rights reserved.</span>
                     <div className=" hidden md:flex items-center">
 
-                        <Link href="https://twitter.com/bhyte_software" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://twitter.com/reframelabsco" target="_blank" rel="noopener noreferrer">
                             <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                 <FaXTwitter size={22} />
                             </div>
                         </Link>
-                        <Link href="https://www.youtube.com/@bhyte_software" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://www.youtube.com/@reframelabsco" target="_blank" rel="noopener noreferrer">
                             <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                 <FaYoutube size={24} />
                             </div>
                         </Link>
 
-                        <Link href="https://dribbble.com/bhyte_software" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://dribbble.com/reframelabsco" target="_blank" rel="noopener noreferrer">
                             <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                 <RiDribbbleLine size={24} />
                             </div>
                         </Link>
-                        <Link href="https://www.threads.com/@bhyte_software" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://www.threads.com/@reframelabsco" target="_blank" rel="noopener noreferrer">
                             <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                 <SiThreads size={22} />
                             </div>
@@ -300,7 +300,7 @@ const Footer = () => {
                         <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                             <RiBehanceLine size={26} />
                         </div>
-                        <Link href="https://www.instagram.com/bhyte_software/" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://www.instagram.com/reframelabsco/" target="_blank" rel="noopener noreferrer">
                             <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                 <FaInstagram size={24} />
                             </div>
