@@ -1483,7 +1483,7 @@ export const companyLinks = [
 export const moreLinks = [
   {
     title: "Book Call",
-    href: "https://cal.com/bhyte/30min?overlayCalendar=true",
+    href: "https://cal.com/reframelabsco/30min?overlayCalendar=true",
   },
   {
     title: "Free MVP Guide",
