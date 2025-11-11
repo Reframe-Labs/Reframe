@@ -58,12 +58,6 @@ export async function createCryptomusSubscription(
   // Signature is calculated as: MD5(base64(json) + apiKey)
   const sign = generateSignature(base64Payload, apiKey);
 
-  console.log("Request body:", jsonString);
-  console.log("Base64 payload:", base64Payload);
-  console.log("Merchant ID:", merchantId);
-  console.log("API Key (last 10 chars):", apiKey.slice(-10));
-  console.log("Sign:", sign);
-
   try {
     const response = await fetch(`${baseUrl}/payment`, {
       method: "POST",
@@ -76,9 +70,6 @@ export async function createCryptomusSubscription(
     });
 
     const data = await response.json();
-
-    console.log("Response status:", response.status);
-    console.log("Response data:", JSON.stringify(data, null, 2));
 
     if (!response.ok || data.result === null) {
       throw new Error(

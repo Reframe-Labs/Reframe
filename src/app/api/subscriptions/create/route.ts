@@ -37,11 +37,7 @@ export async function POST(request: NextRequest) {
       lifetime: 3600, // 1 hour to complete payment
     };
 
-    console.log("Sending to Cryptomus:", subscriptionPayload);
-
     const result = await createCryptomusSubscription(subscriptionPayload);
-
-    console.log("Cryptomus response:", result);
 
     if (!result.result?.url) {
       console.error(
