@@ -8,7 +8,7 @@ import { croProcess, croFaq } from "@/constants";
 import Testimonials from "@/sections/testimonials";
 import { Metadata } from "next";
 
-const wwwBaseUrl = "https://reframelabs.co/";
+const wwwBaseUrl = "https://reframelabs.co";
 
 export const metadata: Metadata = {
     metadataBase: new URL(wwwBaseUrl),

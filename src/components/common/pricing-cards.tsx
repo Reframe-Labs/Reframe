@@ -6,6 +6,7 @@ import { useState } from "react";
 import { BsStripe } from "react-icons/bs";
 import { CustomQuoteDialog } from "./custom-quote-dialog";
 import PrimaryButton from "./primary-button";
+import Image from "next/image";
 
 const PricingCards = () => {
     const [isLoading, setIsLoading] = useState(false);
@@ -136,8 +137,8 @@ const PricingCards = () => {
                 </div>
 
                 <div className=" mt-1 mb-1.5 w-full text-foreground/70 flex items-center justify-center gap-2">
-                    <BsStripe className=" size-3 md:size-4" />
-                    <span className=" text-xs md:text-sm">Checkout powered by Stripe</span>
+                    <Image width={20} height={20} src="/assets/cryptomus.svg" alt="Cryptomus Logo" />
+                    <span className=" text-xs md:text-sm">Checkout powered by Cryptomus</span>
                 </div>
             </motion.div>
 
@@ -214,8 +215,8 @@ const PricingCards = () => {
                 </div>
 
                 <div className=" mt-1 mb-1.5 w-full text-foreground/70 flex items-center justify-center gap-2">
-                    <BsStripe className=" size-3 md:size-4" />
-                    <span className=" text-xs md:text-sm">Checkout powered by Stripe</span>
+                    <Image width={20} height={20} src="/assets/cryptomus.svg" alt="Cryptomus Logo" />
+                    <span className=" text-xs md:text-sm">Checkout powered by Cryptomus</span>
                 </div>
             </motion.div>
         </motion.div>

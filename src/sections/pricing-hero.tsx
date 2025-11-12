@@ -1,3 +1,4 @@
+import { TextAnimate } from "@/components/common/animated-text";
 import PricingCards from "@/components/common/pricing-cards";
 import PrimaryButton from "@/components/common/primary-button";
 import SecondaryButton from "@/components/common/secondary-button";
@@ -18,7 +19,9 @@ const PricingHero = () => {
                     </div>
                     <span className=" ml-2 text-sm md:text-base">Pricing</span>
                 </div>
-                <h1 className="mt-4 font-montserrat font-semibold text-4xl md:text-6xl tracking-tighter text-center capitalize text-balance">Cheaper than <br className=" hidden md:block" /> churned users</h1>
+                <TextAnimate animation="blurInDown" as="h1" startOnView className="mt-4 font-montserrat font-semibold text-4xl md:text-6xl tracking-tighter text-center capitalize md:max-w-[15ch] text-balance">
+                    Cheaper than churned users
+                </TextAnimate>
                 <p className="opacity-70 max-w-prose mx-auto text-center text-balance mt-2 text-sm md:text-base">
                     From design sprints to full-scale product teams, our plans give you unlimited requests, fast delivery, and seamless communication.
                 </p>

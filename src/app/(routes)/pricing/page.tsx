@@ -3,7 +3,7 @@ import Faqs from "@/sections/faqs";
 import PricingHero from "@/sections/pricing-hero";
 import { Metadata } from "next";
 
-const wwwBaseUrl = "https://reframelabs.co/";
+const wwwBaseUrl = "https://reframelabs.co";
 
 export const metadata: Metadata = {
     metadataBase: new URL(wwwBaseUrl),

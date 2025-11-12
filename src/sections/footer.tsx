@@ -297,15 +297,17 @@ const Footer = () => {
                                 <SiThreads size={22} />
                             </div>
                         </Link>
-                        <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
-                            <RiBehanceLine size={26} />
-                        </div>
+                        <Link href="https://www.behance.net/reframelabsco" target="_blank" rel="noopener noreferrer">
+                            <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
+                                <RiBehanceLine size={26} />
+                            </div>
+                        </Link>
                         <Link href="https://www.instagram.com/reframelabsco/" target="_blank" rel="noopener noreferrer">
                             <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center border-r">
                                 <FaInstagram size={24} />
                             </div>
                         </Link>
-                        <Link href="https://github.com/Reframe Labs-Software" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://github.com/Reframe-Labs" target="_blank" rel="noopener noreferrer">
                             <div className=" text-foreground hover:text-primary w-12 h-9 flex items-center justify-center">
                                 <RiGithubFill size={26} />
                             </div>

@@ -5,7 +5,7 @@ import Stats from "@/sections/stats";
 import WhyUs from "@/sections/why-us";
 import { Metadata } from "next";
 
-const wwwBaseUrl = "https://reframelabs.co/";
+const wwwBaseUrl = "https://reframelabs.co";
 
 export const metadata: Metadata = {
     metadataBase: new URL(wwwBaseUrl),

@@ -13,7 +13,7 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
-const wwwBaseUrl = "https://reframelabs.co/";
+const wwwBaseUrl = "https://reframelabs.co";
 
 export const metadata: Metadata = {
   metadataBase: new URL(wwwBaseUrl),

@@ -107,7 +107,7 @@ const ClientStories = ({ title }: { title: string; }) => {
             </div>
 
             <div className=" px-4 md:px-0 max-w-6xl mx-auto w-full flex flex-col items-start">
-                <TextAnimate animation="blurIn" as="h2" startOnView className="font-montserrat font-semibold text-4xl md:text-5xl tracking-tighter text-center md:text-start capitalize md:max-w-[17ch] text-balance">
+                <TextAnimate animation="blurIn" as="h2" startOnView className="font-montserrat font-semibold text-4xl md:text-5xl tracking-tighter text-center md:text-start capitalize md:max-w-[15ch] text-balance">
                     {title}
                 </TextAnimate>
             </div>

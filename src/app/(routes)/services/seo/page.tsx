@@ -6,7 +6,7 @@ import Process from "@/sections/process";
 import SeoHero from "@/sections/seo-hero";
 import SeoServices from "@/sections/seo-services";
 
-const wwwBaseUrl = "https://reframelabs.co/";
+const wwwBaseUrl = "https://reframelabs.co";
 
 export const metadata: Metadata = {
     metadataBase: new URL(wwwBaseUrl),
